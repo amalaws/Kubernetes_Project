@@ -14,12 +14,12 @@ git clone https://github.com/amalaws/Kubernetes_Project.git
 
 2. Build the app
 ```
-docker build -t notes-app .
+docker build -t amal-note .
 ```
 
 3. Run the app
 ```
-docker run -d -p 8000:8000 notes-app:latest
+docker run -d -p 8000:8000 amal-note:latest
 ```
 
 ## Nginx
